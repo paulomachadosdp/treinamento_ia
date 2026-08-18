@@ -10,3 +10,8 @@ if frete["peso"] > 5000:
     print("Carga acima do limite permitido para transporte.")
 else:
     print("Carga dentro do limite permitido para transporte.")
+
+print("lista Completa da frota:")
+for caminhao in caminhoes:
+    print("veiculo disponivel: " + caminhao)
+    
